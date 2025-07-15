@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+  <!-- Public Routes -->
+  <url>
+    <loc>https://omsportal.manishdev.tech/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://omsportal.manishdev.tech/contact</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://omsportal.manishdev.tech/login</loc>
+  </url>
+  <url>
+    <loc>https://omsportal.manishdev.tech/register</loc>
+  </url>
+  <url>
+    <loc>https://omsportal.manishdev.tech/app</loc>
+  </url>
 
+  <!-- Authenticated Routes -->
+  <url><loc>https://omsportal.manishdev.tech/dashboard</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/profile</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/onboarding</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/documents</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/tasks</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/leaves</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/meetings</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/mentors</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/broadcasts</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/notifications</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/messages</loc></url>
 
-<url>
-  <loc>https://omsportal.manishdev.tech/</loc>
-  <lastmod>2025-07-14T18:00:08+00:00</lastmod>
-</url>
-
-
+  <!-- Admin Routes -->
+  <url><loc>https://omsportal.manishdev.tech/admin</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/admin/employees</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/admin/documents</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/admin/tasks</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/admin/messages</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/admin/invitations</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/admin/leaves</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/admin/meetings</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/admin/mentors</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/admin/broadcasts</loc></url>
+  <url><loc>https://omsportal.manishdev.tech/admin/welcome-video</loc></url>
 </urlset>
